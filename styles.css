@@ -1,0 +1,22 @@
+body {
+  background-image: url(http://cartoonclub.tv/online/movie/2023/11/b1699110878.jpg);
+  background-size: cover;
+  color: rgb(11, 57, 84); 
+  }
+.fading-container {
+  position: fixed;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: auto;
+  width: auto;
+  background-color: rgb(0,0,0, 0.5);
+}
+#fading-img {
+  margin: auto;
+  width: 40%;
+  height: 80%;
+}

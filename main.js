@@ -1,3 +1,7 @@
+$(".fading-container").click(function(){
+    $(this).hide();
+  });
+
 (function (jQuery){
     "use strict";
     jQuery(document).ready(function(){
