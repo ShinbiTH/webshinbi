@@ -1,3 +1,5 @@
+
+  
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -7,10 +9,10 @@ body{
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
+    background-image: url("backggg.png");
     padding: 0;
     margin: 0;
     color: #d1d0cf;
-    background: #141414;
 }
 .container-fluid{
     padding: 0 100px;
@@ -90,7 +92,7 @@ header .navbar ul li.menu-item a:hover{
     margin-right: 0;
 }
 .navbar ul.navbar-nav>li.menu-item:hover > a, .navbar ul.navbar-nav > li.menu-item:hover>i{
-    color: #e50914;
+    color: #09e509;
 }
 
 .navbar ul.navbar-nav>li.menu-item>a{
@@ -382,7 +384,7 @@ header .navbar ul li:last-child{
 
 .search:focus+.searchbutton{
     transition-duration: 0.4s;
-    color: #e50914;
+    color: #09e52e;
 }
 .search:hover+.searchbutton{
     color: #fff;
@@ -423,7 +425,7 @@ header .navbar ul li:last-child{
 }
 
 .noti-svg:hover{
-    fill: #e50914;
+    fill: #09e540;
 }
 
 .search-box{
