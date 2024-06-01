@@ -1,88 +1,248 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>โพสต์ประจำวัน</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="shinbithfanpagelogo.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="shinbithfanpagelogo.png">
+	<link rel="stylesheet"
+		href="style.css">
+	<title>Instagram Clone</title>
 </head>
 <body>
-  <div class="instagram-card">
-    <div class="instagram-card-header">
-      <img src="L.jpg" class="instagram-card-user-image"/>
-      <a class="instagram-card-user-name">ลีอน</a>
-    </div>
-    <div class="intagram-card-image">
-      <img src="./img/3.jpeg" height="600px"/>
-    </div>
-  
-    <div class="instagram-card-content">
-    <p><a class="instagram-card-content-user">ลีอน</a> ฉันเป็นอัจฉริยะหรือเปล่า? ไม่ใช่เพราะฉันอัจฉริยะเลยถึงเดามือเธอได้ 555
-    <br>
-    เจ้าของลิขสิทธิ์ : CJ ENM co.,Ltd.}
-    <hr>
-    </div>
-  <br>
-  
-  <div class="instagram-card">
-    <div class="instagram-card-header">
-      <img src="L.jpg" class="instagram-card-user-image"/>
-      <a class="instagram-card-user-name">ลีอน</a>
-    </div>
-    <div class="intagram-card-image">
-      <img src="./img/3.jpeg" height="600px"/>
-    </div>
-  
-    <div class="instagram-card-content">
-    <p><a class="instagram-card-content-user">ลีอน</a> ฉันเป็นอัจฉริยะหรือเปล่า? ไม่ใช่เพราะฉันอัจฉริยะเลยถึงเดามือเธอได้ 555
-    <br>
-    เจ้าของลิขสิทธิ์ : CJ ENM co.,Ltd.}
-    <hr>
-    </div>
-  <br>
 
-    <div class="instagram-card">
-        <div class="instagram-card-header">
-          <img src="K.jpg" class="instagram-card-user-image"/>
-          <a class="instagram-card-user-name">ชเว คังลิม</a>
-        </div>
-        <div class="intagram-card-image">
-          <img src="./img/2.jpeg" height="600px"/>
-        </div>
-      
-        <div class="instagram-card-content">
-        <p><a class="instagram-card-content-user">ชเว คังลิม</a> ทุกวันนี้ ฉันทำดีที่สุดแล้วยังนะ ฉันปกป้องคนที่รักไม่ได้เลย...
-        <br>
-        เจ้าของลิขสิทธิ์ : CJ ENM co.,Ltd.}
-        <hr>
-        </div>
-      <br>
-        
-        <div class="instagram-card-footer">
-        </div>
-    <div class="instagram-card">
-    <div class="instagram-card-header">
-      <img src="G.jpg" class="instagram-card-user-image"/>
-      <a class="instagram-card-user-name">ลี กาอึน</a>
-    </div>
-    <div class="intagram-card-image">
-      <img src="./img/1.jpeg" height="600px"/>
-    </div>
-  
-    <div class="instagram-card-content">
-    <p><a class="instagram-card-content-user">ลีกาอึน</a> ฮารีกำลังคิดอะไรอยู่น่ะ บอกฉันได้นะ
-    <br>
-    เจ้าของลิขสิทธิ์ : CJ ENM co.,Ltd.}
-    <hr>
-    </div>
-    
-    <div class="instagram-card-footer">
-    </div>
-    
+<!-- Our Header section Starts from here -->
+	<header>
+		<nav class="navbar">
+			<div class="container">
+				<div class="logo">
+					<a href="#">
+					<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220609090809/download-200x200.png"
+						alt="img1" height="30px">
+					</a>
+				</div>
+				<div class="searchbar">
+					<input type="text"
+						placeholder="Search">
+					<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220609093658/search-200x200.png"
+						height="18"
+						alt="img2">
+				</div>
+				<div class="nav-links">
+					<ul class="nav-group">
+						<li class="nav-item">
+							<a href="#">
+								<i class="fas fa-home"></i>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="">
+								<i class="fab fa-facebook-messenger"></i>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="">
+								<i class="far fa-compass"></i>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="">
+								<i class="far fa-heart"></i>
+							</a>
+						</li>
+						<li class="nav-item">
+							<div class="action">
+								<div class="profile"
+									onclick="menuToggle()">
+									<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg"
+										alt="user Avatar">
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
 
-  </div>
+	<!-- Code for Showing the Status -->
+	<main>
+		<div class="container">
+			<div class="col-9">
+				<div class="statuses">
+					<div class="status">
+						<div class="image">
+							<img src=
+"G.jpg"
+								alt="img3">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"K.jpg"
+								alt="img4">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"L.jpg"
+								alt="img5">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220609093229/g-200x200.png"
+								alt="img6">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg"
+								alt="img7">
+						</div>
+					</div>
+					<div class="status">
+						<div class="image">
+							<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220604085434/GeeksForGeeks-300x243.png"
+								alt="img8">
+						</div>
+					</div>
+				</div>
+			
+			<!-- Code for viewing the Post -->
+      <div class="card">
+        <div class="top">
+          <div class="userDetails">
+            <div class="profilepic">
+              <div class="profile_img">
+                <div class="image">
+                  <img src="K.jpg"
+                    alt="img10">
+                </div>
+              </div>
+            </div>
+            <h3>ลี กาอึน<br>
+            </h3>
+          </div>
+          <div>
+            <span class="dot">
+              <i class="fas fa-ellipsis-h"></i>
+            </span>
+          </div>
+        </div>
+        <div class="imgBx">
+          <img src=
+"./img/2.jpeg"
+            alt="post-1"
+            class="cover">
+        </div>
+        <div class="bottom">
+          <div class="actionBtns">
+            <div class="left">
+
+                </path>
+              </svg>
+            </div>
+            <div class="right">
+            </div>
+          </div>
+          </a>
+            <p class="message">
+            <b>ชเว คังลิม</b> ทุกวันนี้ ฉันทำดีที่สุดแล้วยังนะ ฉันปกป้องคนที่รักไม่ได้เลย...
+            เจ้าของลิขสิทธิ์ : CJ ENM co.,Ltd.}          
+              <span>#คิดถึงเธอ</span>
+              <span>#อยากลงโน๊ต แต่เว็บนี้ไม่มีให้</span>
+            </p>
+          </a>
+          </a>
+          <div class="addComments">
+            <div class="reaction">
+              <h3>
+              <i class="far fa-smile"></i>
+            </h3>
+            </div>
+          </div>
+        </div>
+				<div class="card">
+					<div class="top">
+						<div class="userDetails">
+							<div class="profilepic">
+								<div class="profile_img">
+									<div class="image">
+										<img src="G.jpg"
+											alt="img10">
+									</div>
+								</div>
+							</div>
+							<h3>ลี กาอึน<br>
+							</h3>
+						</div>
+						<div>
+							<span class="dot">
+								<i class="fas fa-ellipsis-h"></i>
+							</span>
+						</div>
+					</div>
+					<div class="imgBx">
+						<img src=
+"./img/1.jpeg"
+							alt="post-1"
+							class="cover">
+					</div>
+					<div class="bottom">
+						<div class="actionBtns">
+							<div class="left">
+
+									</path>
+								</svg>
+							</div>
+							<div class="right">
+							</div>
+						</div>
+						</a>
+							<p class="message">
+							<b>ลี กาอึน</b> ฮารีกำลังคิดอะไรอยู่น่ะ บอกฉันได้นะ
+              เจ้าของลิขสิทธิ์ : CJ ENM co.,Ltd.}              
+								<span>#วันนี้ที่โรงเรียน</span>
+								<span>#งงน้าคุณน้า</span>
+							</p>
+						</a>
+						</a>
+						<div class="addComments">
+							<div class="reaction">
+								<h3>
+								<i class="far fa-smile"></i>
+							</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Our Footer Section will start from Here -->
+				<div class="footer">
+					<a class="footer-section" href="#">About</a>
+					<a class="footer-section" href="#">Help</a>
+					<a class="footer-section" href="#">API</a>
+					<a class="footer-section" href="#">Jobs</a>
+					<a class="footer-section" href="#">Privacy</a>
+					<a class="footer-section" href="#">Terms</a>
+					<a class="footer-section" href="#">Locations</a>
+					<br>
+					<a class="footer-section" href="#">Top Accounts</a>
+					<a class="footer-section" href="#">Hashtag</a>
+					<a class="footer-section" href="#">Language</a>
+					<br><br>
+					<span class="footer-section">
+						© 2023 INSTAGRAM FROM FACEBOOK
+					</span>
+				</div>
+			</div>
+		</div>
+	</main>
 </body>
 </html>
