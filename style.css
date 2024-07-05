@@ -775,13 +775,13 @@ header#main-header.menu-sticky{
     z-index: 1;
 }
 #home-slider .slick-bg.s-bg-1{
-    background-image: url(https://cdnweb01.wikitree.co.kr/webdata/editor/202109/04/img_20210904134621_07cffe69.webp);
+    background-image: url(./images/shinbis41.jpeg);
 }
 #home-slider .slick-bg.s-bg-2{
-    background-image: url(https://cdn.apnews.kr/news/photo/202111/20211122_1_bodyimg_2121725.PNG);
+    background-image: url(./images/shinbisp.png);
 }
 #home-slider .slick-bg.s-bg-3{
-    background-image: url(https://photos.hancinema.net/photos/fullsizephoto1125969.jpg);
+    background-image: url(./images/themovie22.jpg);
 }
 
 .slick-bg::before{
@@ -1673,7 +1673,7 @@ li.slide-item .block-description .parallax-ratting span{
     height: 100%;
     padding: 100px 0;
     position: relative;
-    background: url(http://cartoonclub.tv/online/movie/2023/11/b1699110878.jpg) center center;
+    background: url(b1699110878.jpg) center center;
     background-size: cover;
     background-attachment: fixed ;
 }
